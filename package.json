@@ -1,29 +1,20 @@
 {
-  "name": "doxity-simpleton",
+  "name": "doxity-generator",
   "version": "1.0.0",
-  "description": "Solidity Documentation",
+  "description": "Doxity docs generator",
   "author": "Ryan Hendricks",
-  "main": "docs/index.html",
-  "directories": {
-    "doc": "docs"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanhendricks/doxitysimpleton.git"
+    "url": "git+https://github.com/harzo/doxity-generator.git"
   },
-  "homepage": "https://ryanhendricks.github.io/doxity-simpleton/", 
+  "homepage": "https://github.com/harzo/doxity-generator/",
+  "contributors": [
+    "Wojciech Harzowski (https://github.com/harzo)"
+  ],
   "scripts": {
-    "docs": "doxity build"
+    "docs": "$(npm bin)/doxity build"
   },
   "dependencies": {
     "@digix/doxity": "^0.5.2",
-    "bs58check": "^2.1.0",
-    "ethereumjs-testrpc": "^6.0.3",
-    "ethereumjs-util": "^5.1.2",
-    "solium": "^1.0.7",
-    "truffle": "^4.0.1",
-    "vorpal": "^1.12.0",
-    "web3": "1.0.0-beta.18",
-    "zeppelin-solidity": "^1.4.0"
   }
 }
